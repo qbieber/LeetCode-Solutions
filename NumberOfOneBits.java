@@ -11,11 +11,7 @@ class NumberOfOneBits {
         return count;
     }
 
-    public boolean getBit(int n, int i) {
+    public static boolean getBit(int n, int i) {
         return (n &(1 << i)) != 0;
-    }
-
-    public static void main(String[] args) {
-        hammingWeight(00000011011101001110110111011101);
     }
 }
